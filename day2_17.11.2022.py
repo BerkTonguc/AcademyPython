@@ -176,4 +176,4 @@ for i in range(1,lessonCount+1):
 print(f"Kaldiğiniz Ders/Dersler ve Bilgileri: {failedDict}")
 print(f"Gectiğiniz Ders/Dersler ve Bilgileri: {passedDict}")
 
-    
+# end of the day 2
