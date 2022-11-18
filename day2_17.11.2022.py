@@ -121,6 +121,34 @@ while i < 10:
     print(i)
     i+=1
 
+#### 2. gün, gün sonu grup ödevi bireysel cevap;
+
+lessonCount = int(input("Kaç dersten sınava girdiniz?"))
+
+listOfFailedCourses = []
+listOfPassedCourses = []
+listOfFailedCoursesGrades = []
+listOfPassedCoursesGrades = []
+lessonsFailed = 0
+lessonsPassed = 0
+
+for i in range(1, lessonCount+1):
+    vize = float(input(f"{i}'nci dersinizin vize notunu giriniz "))
+    final = float(input(f"{i}'nci dersinizin final notunu giriniz "))
+    sonuc = vize*0.4+final*0.6
+    if sonuc>=60:
+        listOfPassedCourses.append(i)
+        listOfPassedCoursesGrades.append(sonuc)
+        lessonsPassed   += 1
+    else:
+        listOfFailedCourses.append(i)
+        listOfFailedCoursesGrades.append(sonuc)
+        lessonsFailed   += 1        
+    
+print (f"geçilen ders ve ortalaması :{listOfPassedCourses} ve {listOfPassedCoursesGrades}")
+print (f"kalınan ders ve ortalaması :{listOfFailedCourses} ve {listOfFailedCoursesGrades}")
+print (f"geçtiğiniz ders sayısı: {lessonsPassed} , kaldığınız ders sayısı: {lessonsFailed}")
+
 
 #### 2. gün, gün sonu grup ödevi ;
 
