@@ -1,9 +1,0 @@
-
- {emplyeeInfo} 
- {emplyeeInfo} 
- {emplyeeInfo} 
- {emplyeeInfo} Personelin adPersonelin adPersonelin adPersonelin adPersonelin adPersonelin adgdf - dfg, 567.0
-fghf - fgh, 67.0
-berk - tonguc, 60000.0
-mert - poyraz, 50000.0
-dfgdf - dfg, 56.0dfgf - dfg, 67.0
