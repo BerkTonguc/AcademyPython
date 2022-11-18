@@ -59,3 +59,5 @@ print(f"{name} {age} yaşında {company}'da çalışıyor")
 #!
 print("First Assignment")
 
+#End of the day
+
