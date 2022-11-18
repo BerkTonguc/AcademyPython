@@ -15,6 +15,10 @@
 #! eklenen çalışanlar mevcut çalışanları silmeyece, -üzerine yazılacak
 #! hata yakalama işlemlerini unutmayalım, maaş mesela asd girilebilir, çalışan sayısı da yine öyle olabilir.
 
+
+#! Cevap
+
+
 #! grup ödevi cevabı 
 
 try:
