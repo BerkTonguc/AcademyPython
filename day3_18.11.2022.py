@@ -25,6 +25,20 @@ finally:
 
 #! Cevap
 
+try:
+    workerCount = int(input("Çalışan sayısı giriniz: "))
+except:
+    print("Düzgün sayı girilmedi..")
+    exit()
+file = open("employees.txt","a+")
+for i in range(workerCount):
+    name = input(f"{i+1}. çalışanın adını giriniz: ")
+    lastName = input(f"{i+1}. çalışanın soyadını giriniz")
+    salary = input(f"{i+1}. çalışanın maaşını giriniz")
+    file.write(f"{name} {lastName} - {salary}\n")
+file.seek(0) #cursor'u sayfanın başına alır aksi halde sonda olduğu için okuyamaz
+print(file.read())
+file.close()
 
 #! grup ödevi cevabı 
 
