@@ -32,12 +32,12 @@ try:
                 salary = float(input(f"{i}. Çalisaninizin Maas Bilgisini Giriniz: "))
             except:
                 print("Lütfen Sayi Giriniz")
-            file = open("employees.txt","a+")
+            file = open("valueList.txt","a+")
             try:
                 file.writelines(f"{name} {surname} - {salary}\n")
             except:
                 print("Hatali giriş tespit edildi.")
-        file = open("employees.txt","r")
+        file = open("valueList.txt","r")
         line = file.readlines()
 
         valueList = []

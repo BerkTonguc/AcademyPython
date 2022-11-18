@@ -1,2 +1,3 @@
-berk tonguc - 345.0
-ali top - 4567.0
+Mert Akay - 1000.0
+Serkan Maren - 2000.0
+Ibrahim Kati - 3000.0
